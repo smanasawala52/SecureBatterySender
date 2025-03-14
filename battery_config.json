@@ -1,0 +1,27 @@
+{
+  "cellCount": 4,
+  "encryptionSalt": "FixedSaltForDemo",
+  "fields": [
+    {
+      "key": "voltage",
+      "unit": "V",
+      "min": 3.2,
+      "max": 4.2,
+      "step": 0.05
+    },
+    {
+      "key": "current",
+      "unit": "A",
+      "min": -10.0,
+      "max": 10.0,
+      "step": 0.5
+    },
+    {
+      "key": "temperature",
+      "unit": "C",
+      "min": 20.0,
+      "max": 60.0,
+      "step": 1.0
+    }
+  ]
+}
